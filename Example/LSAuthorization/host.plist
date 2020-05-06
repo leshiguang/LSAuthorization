@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>websocketHost</key>
+	<dict>
+		<key>release</key>
+		<string>wss://websocket.lifesense.com</string>
+		<key>qa2</key>
+		<string>wss://socket-qa2.lifesense.com</string>
+		<key>qa</key>
+		<string>wss://websocket-qa.lifesense.com</string>
+		<key>dev</key>
+		<string>wss://sports-dev.lifesense.com</string>
+	</dict>
+	<key>staticHost</key>
+	<dict>
+		<key>dev</key>
+		<string>https://static-dev.lifesense.com</string>
+		<key>qa</key>
+		<string>https://static-qa.lifesense.com</string>
+		<key>qa2</key>
+		<string>https://static-qa2.lifesense.com</string>
+		<key>release</key>
+		<string>https://cdn.lifesense.com</string>
+	</dict>
+	<key>urlHost</key>
+	<dict>
+		<key>dev</key>
+		<string>https://sports-dev.lifesense.com</string>
+		<key>qa</key>
+		<string>https://sports-qa.lifesense.com</string>
+		<key>qa2</key>
+		<string>https://sports-qa2.lifesense.com</string>
+		<key>release</key>
+		<string>https://sports-qa.lifesense.com</string>
+	</dict>
+</dict>
+</plist>

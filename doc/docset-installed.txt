@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/alexwu/Library/Developer/Shared/Documentation/DocSets/com.lifesense.lsauthorization.LSAuthorization.docset
+Time: 2020-04-02 08:22:29 +0000

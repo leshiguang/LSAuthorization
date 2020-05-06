@@ -1,0 +1,24 @@
+use_frameworks!
+
+source 'https://github.com/leshiguang/cocoapods.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+
+target 'LSAuthorization_Example' do
+  pod 'LSAuthorization', :path => '../'
+
+  target 'LSAuthorization_Tests' do
+    inherit! :search_paths
+
+ #   pod 'LSNetworkingModule', '2.1.4'
+
+#    pod 'LSDeviceUIModule'
+
+#    pod 'LSMediator'
+#    pod 'LSBaseKit'
+#    pod 'LSFoundationKit', '~> 0.1.11'
+#    pod 'LSLogManager'
+    
+  end
+end

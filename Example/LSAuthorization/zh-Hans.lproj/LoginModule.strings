@@ -1,0 +1,75 @@
+/* 
+  LoginModule.strings
+  LSWearable
+
+  Created by pengpeng on 2019/6/12.
+  Copyright © 2019 lifesense. All rights reserved.
+*/
+
+
+"login_input_mobile" = "请输入手机号码";
+"login_mobile_format_error" = "手机号格式不符";
+"login_enter_password" = "请输入密码";
+"login_without_password" = "免密码登录";
+"login_language_zh" = "简体中文";
+"login_language_tw" = "繁体中文";
+"login_language_eg" = "English";
+"login_language_select" = "Language";
+"login_input_account" = "请输入账号";
+"login_agree_text" = "登录即代表同意";
+"login_user_agreement" = "《用户协议》";
+"login_mobile_password_login" = "账号密码登录";
+"login_gain_verify_code" = "获取验证码";
+"login_fill_user_info" = "填写个人信息，以便准确的分析数据";
+"login_switch_language" = "切换语言";
+"login_mobile_bind" = "手机号绑定";
+"modify_password_new" = "新密码";
+
+
+"login_code_bind" = "账号密码绑定";
+"next_step" = "下一步";
+
+"hint_error_input_phone_please" = "请输入验证码";
+"login" = "登录";
+"qq_login_ing_text" = "登录中...";
+"login_gain_verify_code" = "获取验证码";
+"s_account_image_code_error" = "验证码输入错误";
+"hint_send_success" = "发送成功";
+"LSW.Alert.WeChatVesionIsTooLow" = "目前你的微信版本过低";
+"LSW.Alert.NoLaunchWeChat" = "未安装微信";
+"account_select_country" = "选择国家";
+"agree_contact_click" = "《乐心健康用户协议》";
+"device_sure" = "确定";
+"register_year" = "生日";
+"main_weight" = "体重";
+"register_height" = "身高";
+"register_gender" = "性别";
+"female" = "女";
+"male" = "男";
+"register_nickname" = "昵称";
+"main_weight" = "体重";
+"hint_GraphValidate" = "请输入图形验证码";
+"refresh_GraphValidate" = "点击图片刷新";
+"group_cancel" = "取消";
+"seconds_try" = "秒后重新获取";
+"s_retry_input_cipher" = "请再次输入新密码";
+"s_confirm_new_cipher" = "确认新密码";
+
+"account_choosen_total_step" = "累计步数：";
+"account_choosen_total_score" = "累计积分：";
+"account_choosen_lasttime_record" = "最后一次数据记录：";
+"account_mobile_confrim_bind" = "确认绑定";
+"account_choosen_mobile_have_bind" = "该手机号已绑定其他账号";
+"account_choosen_mobile_unbind_notice" = "您可强行绑定该手机号，或更换手机号，强绑后原账号将无法使用该手机号登录";
+"account_choosen_bindmobile_notice" = "应《中华人民共和国网络安全法》要求，我们将进一步强化实名认证机制，绑定手机号后，您可以更全面地体验产品服务";
+"account_choosen_two_account" = "检测到您有两个账号";
+"account_choosen_two_account_notice" = "请选择其中一个账号继续使用，或换个手机号重新绑定";
+"account_choosen_done" = "选好了";
+"account_choosen_change_mobile" = "换个手机号";
+"account_choosen_have_selected_confirm" = "您选择了账号：%@确认后另一个账号将无法使用";
+"account_cancel" = "取消";
+"account_sure" = "确定";
+"account_input_phone_code" = "请输入验证码";
+
+#设备绑定
+"bind_device_has_been_bind" = "该设备已被绑定"
