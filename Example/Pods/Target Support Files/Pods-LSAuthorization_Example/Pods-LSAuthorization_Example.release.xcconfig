@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/LSAuthorization" "${PODS_CONFIGURATION_BUILD_DIR}/LSNetworkingModule" "${PODS_ROOT}/../../LSAuthorizationFramework-0.1.9/ios"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LSAuthorization" "${PODS_CONFIGURATION_BUILD_DIR}/LSNetwork_iOS" "${PODS_ROOT}/../../LSAuthorizationFramework-0.1.9/ios"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LSAuthorization/LSAuthorization.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LSNetworkingModule/LSNetworkingModule.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LSAuthorization/LSAuthorization.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LSNetwork_iOS/LSNetwork_iOS.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "AFNetworking" -framework "CoreGraphics" -framework "Foundation" -framework "LSAuthorization" -framework "LSNetworkingModule" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "Foundation" -framework "LSAuthorization" -framework "LSNetwork_iOS" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

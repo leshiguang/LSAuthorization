@@ -1,6 +1,7 @@
 use_frameworks!
 
 source 'https://github.com/leshiguang/cocoapods.git'
+source 'https://gitlab.lifesense.com/commonlib_ios/CocoaPodsSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
@@ -11,7 +12,9 @@ target 'LSAuthorization_Example' do
   target 'LSAuthorization_Tests' do
     inherit! :search_paths
 
- #   pod 'LSNetworkingModule', '2.1.4'
+    
+    pod 'LSNetwork_iOS'
+#    pod 'LSNetworkingModule', '2.1.4'
 
 #    pod 'LSDeviceUIModule'
 

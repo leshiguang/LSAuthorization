@@ -1,42 +1,24 @@
 PODS:
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
-    - AFNetworking/NSURLSession
   - LSAuthorization (0.2.0):
-    - LSNetworkingModule
-  - LSNetworkingModule (2.2.0):
-    - AFNetworking (~> 3.1.0)
+    - LSNetwork_iOS
+  - LSNetwork_iOS (2.1.9)
 
 DEPENDENCIES:
   - LSAuthorization (from `../`)
+  - LSNetwork_iOS
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - AFNetworking
   https://gitlab.lifesense.com/commonlib_ios/CocoaPodsSpecs.git:
-    - LSNetworkingModule
+    - LSNetwork_iOS
 
 EXTERNAL SOURCES:
   LSAuthorization:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  LSAuthorization: a26812f6c25bcff63140897bdd3808a68f5bf633
-  LSNetworkingModule: b9a976411e0dcbfd6087231bc4580b21e90c6377
+  LSAuthorization: ee433aed67ca92be16610680024e5d8cb4d075b4
+  LSNetwork_iOS: 2d652a574d3d664928a68dbad6baad34ccfc6c5e
 
-PODFILE CHECKSUM: 535d12ad45cd2d6c8118e734c4d2524d40893629
+PODFILE CHECKSUM: 974384f1df64289e4a971689af41cf5b95584482
 
 COCOAPODS: 1.8.4

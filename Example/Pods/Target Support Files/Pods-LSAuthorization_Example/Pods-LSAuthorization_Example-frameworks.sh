@@ -161,14 +161,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LSAuthorization/LSAuthorization.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/LSNetworkingModule/LSNetworkingModule.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LSNetwork_iOS/LSNetwork_iOS.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LSAuthorization/LSAuthorization.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/LSNetworkingModule/LSNetworkingModule.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LSNetwork_iOS/LSNetwork_iOS.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

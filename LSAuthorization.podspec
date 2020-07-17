@@ -38,7 +38,8 @@ TODO: Add long description of the pod here.
   }
   s.vendored_framework  = 'LSAuthorizationFramework-0.1.9/ios/LSAuthorizationFramework.framework'
   s.public_header_files = 'LSAuthorization/Classes/Public/LSAuthorization.h'
-  s.dependency 'LSNetworkingModule'
+#  s.dependency 'LSNetworkingModule'
+  s.dependency 'LSNetwork_iOS'
 end
 # pod repo push lifesense-github LSAuthorization.podspec --allow-warnings --verbose
 # pod package LSAuthorization.podspec --force --no-mangle --spec-sources=https://gitlab.lifesense.com/commonlib_ios/CocoaPodsSpecs.git,https://github.com/CocoaPods/Specs

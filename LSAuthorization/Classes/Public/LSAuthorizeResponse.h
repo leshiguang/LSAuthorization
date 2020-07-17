@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <LSNetworkingModule/LSNetworkingModule.h>
+#import <LSNetwork_iOS/LSNetworkingModule.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
