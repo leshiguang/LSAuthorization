@@ -1,7 +1,6 @@
 use_frameworks!
 
 source 'https://github.com/leshiguang/cocoapods.git'
-source 'https://gitlab.lifesense.com/commonlib_ios/CocoaPodsSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
